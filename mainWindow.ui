@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1192</width>
+    <height>817</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_15">
+    <item>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="handleWidth">
+       <number>10</number>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_5">
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="0" column="2">
+             <widget class="QLabel" name="label_7">
+              <property name="text">
+               <string>Extension</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLineEdit" name="tBML">
+              <property name="text">
+               <string>BML</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="2">
+             <widget class="QLineEdit" name="sT">
+              <property name="text">
+               <string>Transparency</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLineEdit" name="sNM">
+              <property name="text">
+               <string>Normal</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="3">
+             <widget class="QLineEdit" name="tEM">
+              <property name="text">
+               <string>EM</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="lM">
+              <property name="text">
+               <string>Metalicness</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QComboBox" name="fBML">
+              <property name="currentText">
+               <string>BC7_UNORM_SRGB</string>
+              </property>
+              <property name="currentIndex">
+               <number>3</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>BC5_UNORM</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC1_UNORM_SRGB</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC7_UNORM</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC7_UNORM_SRGB</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="6" column="2">
+             <widget class="QLineEdit" name="sEM">
+              <property name="text">
+               <string>Emissive</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QComboBox" name="fCMM">
+              <property name="currentText">
+               <string>BC7_UNORM_SRGB</string>
+              </property>
+              <property name="currentIndex">
+               <number>3</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>BC5_UNORM</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC1_UNORM_SRGB</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC7_UNORM</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC7_UNORM_SRGB</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="lT">
+              <property name="text">
+               <string>Transparency</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QComboBox" name="fEM">
+              <property name="currentText">
+               <string>BC7_UNORM_SRGB</string>
+              </property>
+              <property name="currentIndex">
+               <number>3</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>BC5_UNORM</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC1_UNORM_SRGB</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC7_UNORM</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC7_UNORM_SRGB</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLineEdit" name="sM">
+              <property name="text">
+               <string>Metallic</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="lEM">
+              <property name="text">
+               <string>Emissive</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLineEdit" name="sBML">
+              <property name="text">
+               <string>BaseColor</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="3">
+             <widget class="QLineEdit" name="tCMM">
+              <property name="text">
+               <string>CMM</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="lBML">
+              <property name="text">
+               <string>Diffuse</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QLineEdit" name="sR">
+              <property name="text">
+               <string>Roughness</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="lR">
+              <property name="text">
+               <string>Roughness</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLineEdit" name="tNM">
+              <property name="text">
+               <string>NM</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_8">
+              <property name="text">
+               <string>Label</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="lCMM_2">
+              <property name="text">
+               <string>Custom Coloring</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="lNM">
+              <property name="text">
+               <string>Normal</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="label_9">
+              <property name="text">
+               <string>Format</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLineEdit" name="tRMT">
+              <property name="text">
+               <string>RMT</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QComboBox" name="fNM">
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>BC5_UNORM</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC1_UNORM_SRGB</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC7_UNORM</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC7_UNORM_SRGB</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QComboBox" name="fRMT">
+              <property name="currentText">
+               <string>BC7_UNORM_SRGB</string>
+              </property>
+              <property name="currentIndex">
+               <number>3</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>BC5_UNORM</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC1_UNORM_SRGB</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC7_UNORM</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>BC7_UNORM_SRGB</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="label_10">
+              <property name="text">
+               <string>Target Extension</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="2">
+             <widget class="QLineEdit" name="sCMM">
+              <property name="text">
+               <string>Custom</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="0" column="0">
+             <widget class="QLabel" name="lCMM_8">
+              <property name="text">
+               <string>Input Folder</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="lCMM_3">
+              <property name="text">
+               <string>Output Folder</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="input"/>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="output"/>
+            </item>
+            <item row="0" column="2">
+             <widget class="QPushButton" name="inputFind">
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QPushButton" name="outputFind">
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="invertNM">
+            <property name="text">
+             <string>Invert NM</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="debug">
+            <property name="text">
+             <string>Debug Mode</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="convert">
+            <property name="text">
+             <string>Convert</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <item>
+           <layout class="QFormLayout" name="formLayout_2">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_11">
+              <property name="text">
+               <string>Find</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="find"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_12">
+              <property name="text">
+               <string>Replace</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="replace"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="rename">
+            <property name="text">
+             <string>Rename</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <item>
+             <widget class="QLabel" name="lCMM_5">
+              <property name="text">
+               <string>Input Tex</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="unpackPath"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="unpackFind">
+              <property name="text">
+               <string>...</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="unpack">
+            <property name="text">
+             <string>Unpack</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QSplitter" name="splitter">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <layout class="QVBoxLayout" name="verticalLayout_13">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_12">
+           <item>
+            <widget class="QListWidget" name="mPaths"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_14">
+             <item>
+              <widget class="QPushButton" name="mUp">
+               <property name="text">
+                <string>^</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="mAdd">
+               <property name="text">
+                <string>Add</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="mRemove">
+               <property name="text">
+                <string>Delete</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="mDown">
+               <property name="text">
+                <string>v</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="merge">
+           <property name="text">
+            <string>Merge Texture Sets</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="Line" name="line_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_4">
+        <layout class="QVBoxLayout" name="verticalLayout_16">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_13">
+           <item>
+            <widget class="QListWidget" name="pPaths"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_17">
+             <item>
+              <widget class="QPushButton" name="pUp">
+               <property name="text">
+                <string>^</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pAdd">
+               <property name="text">
+                <string>Add</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pRemove">
+               <property name="text">
+                <string>Delete</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pDown">
+               <property name="text">
+                <string>v</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_14">
+           <item>
+            <widget class="QLabel" name="lCMM">
+             <property name="text">
+              <string>Output Tex</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="packPath"/>
+           </item>
+           <item>
+            <widget class="QPushButton" name="packFind">
+             <property name="text">
+              <string>...</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pack">
+           <property name="text">
+            <string>Pack</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="console"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1192</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

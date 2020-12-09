@@ -1,0 +1,1 @@
+"D:\Program Files\WinPython-64bit-3.5.3.0Qt5\python-3.5.3.amd64\Scripts\pyuic5.bat" -x mainWindow.ui -o mainWindow.py
