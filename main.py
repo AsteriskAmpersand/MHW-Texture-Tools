@@ -24,7 +24,7 @@ class MainWindow(QtWidgets.QMainWindow):
     def execute(self):
         if self.ui.input.text():
             self.ui.console.append("Parsing %s"%self.ui.input.text())
-            plist = list(Path(self.ui.input.text()).glob("*.PNG"))
+            plist = list(Path(self.ui.input.text()).glob("*.PNG"))+list(Path(self.ui.input.text()).glob("*.TGA"))
             grouping = self.group(plist)
             for group in grouping.values():
                 self.parser(group)
